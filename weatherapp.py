@@ -12,18 +12,17 @@ from time import gmtime, strftime
 from  tkinter import ttk
 from playsound import playsound
 import threading
+from config import *
+
+api_key = API_KEY 
+zmanim_key = Zmanim_API_KEY 
+user_id= USER_ID
 
 # necessary details
 
 root = Tk()
 root.title("Weather App")
 root.attributes("-fullscreen",True)
-
-api_key = "b87e47a673371f55bbaa6bcbce917035"
-
-zmanim_key = "ba1f517ec18a8362079bbf26677f4d569fb0fe2f9bb187c9353d97386e24c8c9417f0d57d8cc3e72"
-
-user_id="0002733189"
 
 # alarm variable
 
